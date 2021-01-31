@@ -24,14 +24,16 @@
 #
 # Version: 20200722
 
+# project library includes 
+include squantorMinUnit/squantorMinUnit.mk
+include squantorLibEmbeddedC/squantorLibEmbeddedC.mk
+
 # project settings
 TARGET = PC
 
 # project sources
-FILES += $(PROJECT)/src/main.cpp \
-$(PROJECT)/src/test.c \
-$(PROJECT)/src/test.cpp
+FILES += $(PROJECT)/src/main.cpp
 
 INCLUDES += -I$(PROJECT)/inc
 
-
+DEFINES += -DMINUNIT_MAX_TESTS=1000
