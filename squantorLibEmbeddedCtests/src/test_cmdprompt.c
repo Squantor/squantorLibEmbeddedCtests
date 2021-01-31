@@ -132,13 +132,6 @@ MINUNIT_ADD(testCmdPromptCmdlineBadEsc)
     testCmdPromptTeardown();
 }
 
-// input previous command request, should be empty
-MINUNIT_ADD(testCmdPromptPreviousEmpty) 
-{
-    testCmdPromptSetup();
-    testCmdPromptTeardown();
-}
-
 // check if the command interpreter gets edited line
 MINUNIT_ADD(testCmdPromptCmdlineEditInput) 
 {
