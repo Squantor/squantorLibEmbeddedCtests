@@ -32,7 +32,8 @@ include squantorLibEmbeddedC/squantorLibEmbeddedC.mk
 TARGET = PC
 
 # project sources
-FILES += $(PROJECT)/src/main.cpp
+FILES += $(PROJECT)/src/main.cpp \
+$(PROJECT)/src/test_queue_char.c
 
 INCLUDES += -I$(PROJECT)/inc
 
