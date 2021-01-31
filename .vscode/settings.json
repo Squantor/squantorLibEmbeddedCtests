@@ -6,7 +6,8 @@
         "queue.h": "c",
         "minunit.h": "c",
         "string.h": "c",
-        "queue_string.h": "c"
+        "queue_string.h": "c",
+        "mock_datastreamchar.h": "c"
     },
     "C_Cpp.default.cppStandard": "c++20",
     "C_Cpp.default.cStandard": "c11",
