@@ -22,7 +22,7 @@
                     "ignoreFailures": true
                 }
             ],
-            "preLaunchTask": "build PC example",
+            "preLaunchTask": "build squantorLibEmbeddedCtests",
         },
     ]
 }
