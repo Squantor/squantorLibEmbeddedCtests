@@ -33,7 +33,11 @@ TARGET = PC
 
 # project sources
 FILES += $(PROJECT)/src/main.cpp \
-$(PROJECT)/src/test_queue_char.c
+$(PROJECT)/src/mock_datastreamchar.c \
+$(PROJECT)/src/test_queue_char.c \
+$(PROJECT)/src/test_queue_string.c \
+$(PROJECT)/src/test_print.c \
+
 
 INCLUDES += -I$(PROJECT)/inc
 
